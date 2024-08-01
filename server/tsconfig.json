@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    
+    "target": "es2016",                                 
+    "module": "commonjs",                                
+    "rootDir": "./src",                                  
+    "types": ["node"],                         
+    "outDir": "./dist",                                   
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                                      
+    "skipLibCheck": true                                 
+  },
+    "roles": {
+        "user": {
+            "permissions": {
+                "JoinBackstage": true,
+                "join_call": true,
+                "create_call": true,
+                "update_call": true
+            }
+        }
+    }
+}
+
